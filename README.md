@@ -10,3 +10,6 @@ This script automates sending all available KAIA from multiple wallets to a sing
 
 ### 🔹 Usage
 1. Prepare a `privkeys.txt` file in the same folder:  
+2. Edit the script to set your **recipient address**:
+```python
+recipient_address = web3.to_checksum_address("YOUR_ADDRESS_HERE")
